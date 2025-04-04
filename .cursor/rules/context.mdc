@@ -1,0 +1,28 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: FFmpeg Tools Project Context
+globs: "**/*"
+alwaysApply: true
+---
+
+# FFmpeg Tools Project
+
+This repo is a collection of high-level scripts to interact with ffmpeg in an easier way. It's split into various categories: audio, video, and image processing. Each directory contains specialized scripts for different ffmpeg operations.
+
+## Project Structure
+- `video/`: Scripts for video processing
+- `audio/`: Scripts for audio processing 
+- `image/`: Scripts for image processing
+
+## Guidelines
+- Each script should focus on a single FFmpeg operation/task
+- Begin scripts with clear header comments explaining purpose and usage
+- Include proper error handling with helpful messages
+- Use consistent naming conventions
+- Create appropriate output directories as needed
+- Display helpful progress information and results
+- Update the README.md whenever new functionality is added
